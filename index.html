@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HillyChilly</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
+    ">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
@@ -52,7 +54,7 @@
             color: rgb(163, 133, 77);
             font-weight: 300;
             font-size: 13.5px;
-            padding-left: 3%;
+          margin-left: 30px;
             font-weight: 300;
         }
 
@@ -100,6 +102,7 @@
             background: #fff;
             padding: 0 10px;
         }
+       
     </style>
 
 
@@ -108,21 +111,26 @@
 
 
 <!-- Start of navbar and top banner -->
-    <div class="py-2 navbartopbanner">
+    <div class="py-2 navbartopbanner container-fluid top-header">
         15% OFF ON BOOKING ABOVE 500$
     </div>
-    <nav class="navbar container" style="max-width: 990px;">
-
-        <div class="col">
-            <a href="index.html" class="hillychilly">HILLYCHILLY</a>
+    <nav class="navbar navbar-expand-lg container sticky-top" style="background-color: #fff;">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand hillychilly">HillyChilly</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-item nav-link active navlinks">Home</a>
+                    <a href="vacationbundle.html" class="nav-item nav-link navlinks">Vacation Bundle</a>
+                    <a href="premiumtour.html" class="nav-item nav-link navlinks">Premium Tour</a>
+                    <a href="#" class="nav-item nav-link navlinks">Blog</a>
+                    <a href="#" class="nav-item nav-link navlinks">Contact Us</a>
+                </div>
+               
+            </div>
         </div>
-        </div>
-
-        <a href="#" class="navlinks ">Home</a>
-        <a href="vacationbundle.html" class="navlinks">Vacation Bundle</a>
-        <a href="premiumtour.html" class="navlinks">Premium tour</a>
-        <a href="#" class="navlinks">Blog</a>
-        <a href="#" class="navlinks">Contact Us</a>
     </nav>
     <!-- end of navbar and topbanner -->
     <center>
@@ -245,6 +253,8 @@
             <a href="#" class="m-1 navlinks">Home</a>
             <a href="#" class="m-1 navlinks">Premium tour</a>
         </div>
+
+        
 
 
     </footer>
