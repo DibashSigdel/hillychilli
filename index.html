@@ -31,6 +31,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
@@ -86,110 +90,291 @@
 
 <body>
 
-    <center>
-        <div class="container">
-            <img src="https://img1.wsimg.com/isteam/stock/73j5my4/:/rs=w:3070,m" alt="image" class="container"
-                style="object-fit: cover; max-height: 400px; min-height: 190px;">
-        </div>
-        <br>
-        <h3 class="mt-3"
-            style="font-family: 'Abril Fatface', cursive; color: rgb(140, 114, 66);font-size: 27px ; letter-spacing: 3px;">
-            create your story of
-            a Wandering Soul</h3>
-        <br>
-        <p style="color: rgb(94, 94, 94);;">Join us and be part of our adventures!</p>
-        <br>
-        <button
-            class="button1  rounded-0 px-4 p-2 fw-bold border-0 text-white rounded-0 px-4 p-2 fw-bold border-0 text-white">Contact
-            Us</button>
-        <br> <br>
+    <br><br>
 
-        <h2 class="textmidline" style="max-width: 1010px; min-width: 300px; font-size: 16px; color:rgb(89, 89, 89);">
-            <span class="textmidline2" style="background-color: #f1f1f1;">About Us</span>
-        </h2>
+    <div id="exTab2" class="container">
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a href="#1" data-toggle="tab" style="color: rgb(163, 133, 77);">Stays</a>
+            </li>
+            <li><a href="#2" data-toggle="tab" style="color: rgb(163, 133, 77);">Flights</a>
+            </li>
+            <li><a href="#3" data-toggle="tab" style="color: rgb(163, 133, 77);">Things To Do</a>
+            </li>
+        </ul>
+        <!-- =============================================     Stays      ==================================-->
+        <div class="tab-content">
+            <div class="tab-pane active" id="1">
 
-        <div class="container" style="max-width: 1010px; min-width: 300pxd;">
-            <div class="row">
-                <div class="col-sm">
-                    <div class="card" style="border:none;">
-                        <p>
-                        <h3 style="font-family: 'Abril Fatface', cursive; color: rgb(140, 114, 66);">What we do</h3>
-                        <br>
-                        <p style="color: rgb(94, 94, 94);;">
-                            We offer variety of Tours and Trekking packages, with a team of young and dynamic guides and
-                            travel
-                            assistance
-                        </p>
+                <br><br>
+
+
+
+                <div class="input-group">
+                    <span class="input-group-addon" style="border-color: rgb(163, 133, 77);"><i class="fa">&#xf041;</i>
+                    </span>
+                    <input id="email" type="text" class="form-control" name="email" placeholder="Location"
+                        style="border-color: rgb(163, 133, 77);">
+
+                </div><br>
+
+
+                <form>
+                    <div class="row container">
+
+                        <div class="col">
+                            <div class="input-group">
+                                <span class="input-group-addon" style="border-color: rgb(163, 133, 77);">Check-In
+                                </span>
+                                <input id="email" type="date" class="form-control" name="email"
+                                    style="border-color: rgb(163, 133, 77);">
+                            </div>
+                        </div><br><br>
+                        <div class="col">
+                            <div class="input-group">
+                                <span class="input-group-addon" style="border-color: rgb(163, 133, 77);">Check-Out
+                                </span>
+                                <input id="email" type="date" class="form-control d-flex"
+                                    style="border-color: rgb(163, 133, 77); color:;">
+                            </div>
+                        </div><br><br> <br>
+                        <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+                        <center> <a><button class="button1  rounded-5 text-white border-0"
+                                    style="height: 40px; width:150px;font-size:large;">
+                                    Search</button></a></center>
                     </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card" style="border:none;">
-                        <p>
-                        <h3 style="font-family: 'Abril Fatface', cursive; color: rgb(140, 114, 66);">How we help</h3>
-                        <br>
-                        <p style="color: rgb(94, 94, 94);;">
-                            We provide you with best quotes based on your travelling plans and requirements and the
-                            locations.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card col-sm" style="border:none;">
-                        <p>
-                        <h3 style="font-family: 'Abril Fatface', cursive; color: rgb(140, 114, 66);">Top Destinations
-                        </h3>
-                        <br>
-                        <ul style="text-align:left; color: rgb(94, 94, 94);;">
-                            <li>Trekking</li>
-                            <li>camping and firework</li>
-                            <li>mountain flight</li>
-                            <li>paragliding</li>
-                            <li>sight seeing</li>
-                            <li>chitwan national park</li>
-                        </ul>
-                        <br>
+                </form>
+            </div>
+            <br><br>
+            <div class="tab-pane" id="2">
+                <div id="exTab2" class="container">
+                    <ul class="nav justify-content-center">
+                        <li class="active">
+                            <a href="#oneway" data-toggle="tab" style="color: rgb(163, 133, 77);">One way</a>
+                        </li>
+                        <li><a href="#twoway" data-toggle="tab" style="color: rgb(163, 133, 77);">Two Way</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+
+                        <!-- Oneway -->
+                        <div class="tab-pane active" id="oneway">
+                            <br><br>
+                            <div class="d-flex">
+                                <div class="input-group">
+                                    <span class="input-group-addon" style="border-color: rgb(163, 133, 77);"><i
+                                            class="fa">&#xf041;</i>
+                                    </span>
+                                    <input id="email" type="text" class="form-control" name="email"
+                                        placeholder="Leaving From" style="border-color: rgb(163, 133, 77);">
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-addon" style="border-color: rgb(163, 133, 77);"><i
+                                            class="fa">&#xf041;</i>
+                                    </span>
+                                    <input id="email" type="text" class="form-control" name="email"
+                                        placeholder="Going To" style="border-color: rgb(163, 133, 77);">
+                                </div>
+                            </div>
+                            <br>
+                            <center>
+                                <div class="input-group" style="width: 50%;">
+                                    <span class="input-group-addon" style="border-color: rgb(163, 133, 77);">Departing
+                                    </span>
+                                    <input id="email" type="date" class="form-control" name="email"
+                                        style="border-color: rgb(163, 133, 77);">
+                                </div>
+                            </center><br>
+                            <center> <a><button class="button1  rounded-5 text-white border-0"
+                                        style="height: 40px; width:150px;font-size:large;">
+                                        Search</button></a></center>
+                        </div>
+
+                        <!-- twoway -->
+                        <div class="tab-pane" id="twoway">
+                            <br><br>
+                            <div class="d-flex">
+                                <div class="input-group">
+                                    <span class="input-group-addon" style="border-color: rgb(163, 133, 77);"><i
+                                            class="fa">&#xf041;</i>
+                                    </span>
+                                    <input id="email" type="text" class="form-control" name="email"
+                                        placeholder="Leaving From" style="border-color: rgb(163, 133, 77);">
+                                </div>
+
+                                <div class="input-group">
+                                    <span class="input-group-addon" style="border-color: rgb(163, 133, 77);"><i
+                                            class="fa">&#xf041;</i>
+                                    </span>
+                                    <input id="email" type="text" class="form-control" name="email"
+                                        placeholder="Going To" style="border-color: rgb(163, 133, 77);">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="input-group">
+                                <span class="input-group-addon" style="border-color: rgb(163, 133, 77);">Departing
+                                </span>
+                                <input id="email" type="date" class="form-control" name="email"
+                                    style="border-color: rgb(163, 133, 77);">
+                                <span class="input-group-addon" style="border-color: rgb(163, 133, 77);">Returning
+                                </span>
+                                <input id="email" type="date" class="form-control" name="email"
+                                    style="border-color: rgb(163, 133, 77);">
+                            </div><br>
+                            <center> <a><button class="button1  rounded-5 text-white border-0"
+                                        style="height: 40px; width:150px;font-size:large;">
+                                        Search</button></a></center>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <h2 class="textmidline" style="max-width: 1010px; min-width: 300px; font-size: 16px; color:rgb(89, 89, 89);">
-            <span class="textmidline2">Contact Us</span>
-        </h2>
-        <br>
-        <form>
-            <input type="text" name="name" placeholder="Name"
-                style="width: 50%; border: none; background-color: #f1f1f1; " class="form-control"><br>
-            <input type="text" name="Email" placeholder="Email*" required class="form-control"
-                style="width: 50% ;border: none; background-color: #f1f1f1;">
+
+            <!--=============================================   Things To Do  ==================================-->
+
+            <div class="tab-pane" id="3">
+                <div class="input-group">
+                    <span class="input-group-addon" style="border-color: rgb(163, 133, 77);"><i class="fa">&#xf041;</i>
+                    </span>
+                    <input id="email" type="text" class="form-control" name="email" placeholder="Going To"
+                        style="border-color: rgb(163, 133, 77);">
+                </div><br>
+                <form>
+                    <div class="row container">
+                        <div class="col">
+                            <div class="input-group">
+                                <span class="input-group-addon" style="border-color: rgb(163, 133, 77);">from
+                                </span>
+                                <input id="email" type="date" class="form-control" name="email"
+                                    style="border-color: rgb(163, 133, 77);">
+                            </div>
+                        </div><br><br>
+                        <div class="col">
+                            <div class="input-group">
+                                <span class="input-group-addon" style="border-color: rgb(163, 133, 77);">To
+                                </span>
+                                <input id="email" type="date" class="form-control d-flex"
+                                    style="border-color: rgb(163, 133, 77); color:;">
+                            </div>
+                        </div><br><br> <br>
+                        <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+                        <center> <a><button class="button1  rounded-5 text-white border-0"
+                                    style="height: 40px; width:150px;font-size:large;">
+                                    Search</button></a></center>
+                    </div>
+                </form>
+            </div>
+        </div><br><br>
+
+        <center>
+            <div class="container">
+                <img src="https://img1.wsimg.com/isteam/stock/73j5my4/:/rs=w:3070,m" alt="image" class="container"
+                    style="object-fit: cover; max-height: 400px; min-height: 190px;">
+            </div>
             <br>
-            <textarea name="comments" id="comments"
-                style="width: 50%; height: 200px;border: none; background-color: #f1f1f1;" placeholder="Message"
-                class="form-control"></textarea><br><br>
-        </form>
-        <button
-            class="button1 rounded-0 px-4 p-2 fw-bold border-0 text-white rounded-0 px-4 p-2 fw-bold border-0 text-white">Send</button><br><br>
-        <p style="font-size: 12px;">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of
-            Service apply.</p>
-        <h3 class="mt-3" style="font-family: 'Abril Fatface', cursive; color: rgb(140, 114, 66);font-size: 27px ;">
-            Better yet, see us in person!</h3><br><br>
-        <!-- <hr style="width: 50%;"> -->
-        <h2 class="textmidline" style="max-width: 1010px; min-width: 300px; font-size: 16px; color:rgb(89, 89, 89);">
-            <span class="textmidline2">Photo Gallery</span>
-        </h2>
-        <br><br>
-        <div><a href="https://img1.wsimg.com/isteam/ip/c1512f10-816e-434b-8fbc-f91747269931/image_processing20181012-4-jbs6xr.jpg/:/rs=w:984,h:656"
-                target="_blank" class="imagegallery"><img
-                    src="https://img1.wsimg.com/isteam/ip/c1512f10-816e-434b-8fbc-f91747269931/image_processing20181012-4-jbs6xr.jpg/:/rs=w:984,h:656"
-                    style="width: 50%;"></div></a><br>
-        <div><a href="https://img1.wsimg.com/isteam/ip/c1512f10-816e-434b-8fbc-f91747269931/nepal-village.jpg/:/rs=w:1280,h:720"
-                target="_blank" class="imagegallery"><img
-                    src="https://img1.wsimg.com/isteam/ip/c1512f10-816e-434b-8fbc-f91747269931/nepal-village.jpg/:/rs=w:1280,h:720"
-                    style="width: 50%;"></div></a><br>
-        <div><a href="https://img1.wsimg.com/isteam/stock/Wb12gzD/:/rs=w:984,h:657" target="_blank"
-                class="imagegallery"><img src="https://img1.wsimg.com/isteam/stock/Wb12gzD/:/rs=w:984,h:657"
-                    style="width: 50%;"></div>
-        </a><br><br><br>
-    </center>
+            <h3 class="mt-3"
+                style="font-family: 'Abril Fatface', cursive; color: rgb(140, 114, 66);font-size: 27px ; letter-spacing: 3px;">
+                create your story of
+                a Wandering Soul</h3>
+            <br>
+            <p style="color: rgb(94, 94, 94);;">Join us and be part of our adventures!</p>
+            <br>
+            <button
+                class="button1  rounded-0 px-4 p-2 fw-bold border-0 text-white rounded-0 px-4 p-2 fw-bold border-0 text-white">Contact
+                Us</button>
+            <br> <br>
+
+            <h2 class="textmidline"
+                style="max-width: 1010px; min-width: 300px; font-size: 16px; color:rgb(89, 89, 89);">
+                <span class="textmidline2" style="background-color: #f1f1f1;">About Us</span>
+            </h2>
+
+            <div class="container" style="max-width: 1010px; min-width: 300pxd;">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card" style="border:none;">
+                            <p>
+                            <h3 style="font-family: 'Abril Fatface', cursive; color: rgb(140, 114, 66);">What we do</h3>
+                            <br>
+                            <p style="color: rgb(94, 94, 94);;">
+                                We offer variety of Tours and Trekking packages, with a team of young and dynamic guides
+                                and
+                                travel
+                                assistance
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card" style="border:none;">
+                            <p>
+                            <h3 style="font-family: 'Abril Fatface', cursive; color: rgb(140, 114, 66);">How we help
+                            </h3>
+                            <br>
+                            <p style="color: rgb(94, 94, 94);;">
+                                We provide you with best quotes based on your travelling plans and requirements and the
+                                locations.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card col-sm" style="border:none;">
+                            <p>
+                            <h3 style="font-family: 'Abril Fatface', cursive; color: rgb(140, 114, 66);">Top
+                                Destinations
+                            </h3>
+                            <br>
+                            <ul style="text-align:left; color: rgb(94, 94, 94);;">
+                                <li>Trekking</li>
+                                <li>camping and firework</li>
+                                <li>mountain flight</li>
+                                <li>paragliding</li>
+                                <li>sight seeing</li>
+                                <li>chitwan national park</li>
+                            </ul>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="textmidline"
+                style="max-width: 1010px; min-width: 300px; font-size: 16px; color:rgb(89, 89, 89);">
+                <span class="textmidline2">Contact Us</span>
+            </h2>
+            <br>
+            <form>
+                <input type="text" name="name" placeholder="Name"
+                    style="width: 50%; border: none; background-color: #f1f1f1; " class="form-control"><br>
+                <input type="text" name="Email" placeholder="Email*" required class="form-control"
+                    style="width: 50% ;border: none; background-color: #f1f1f1;">
+                <br>
+                <textarea name="comments" id="comments"
+                    style="width: 50%; height: 200px;border: none; background-color: #f1f1f1;" placeholder="Message"
+                    class="form-control"></textarea><br><br>
+            </form>
+            <button
+                class="button1 rounded-0 px-4 p-2 fw-bold border-0 text-white rounded-0 px-4 p-2 fw-bold border-0 text-white">Send</button><br><br>
+            <p style="font-size: 12px;">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of
+                Service apply.</p>
+            <h3 class="mt-3" style="font-family: 'Abril Fatface', cursive; color: rgb(140, 114, 66);font-size: 27px ;">
+                Better yet, see us in person!</h3><br><br>
+            <!-- <hr style="width: 50%;"> -->
+            <h2 class="textmidline"
+                style="max-width: 1010px; min-width: 300px; font-size: 16px; color:rgb(89, 89, 89);">
+                <span class="textmidline2">Photo Gallery</span>
+            </h2>
+            <br><br>
+            <div><a href="https://img1.wsimg.com/isteam/ip/c1512f10-816e-434b-8fbc-f91747269931/image_processing20181012-4-jbs6xr.jpg/:/rs=w:984,h:656"
+                    target="_blank" class="imagegallery"><img
+                        src="https://img1.wsimg.com/isteam/ip/c1512f10-816e-434b-8fbc-f91747269931/image_processing20181012-4-jbs6xr.jpg/:/rs=w:984,h:656"
+                        style="width: 50%;"></div></a><br>
+            <div><a href="https://img1.wsimg.com/isteam/ip/c1512f10-816e-434b-8fbc-f91747269931/nepal-village.jpg/:/rs=w:1280,h:720"
+                    target="_blank" class="imagegallery"><img
+                        src="https://img1.wsimg.com/isteam/ip/c1512f10-816e-434b-8fbc-f91747269931/nepal-village.jpg/:/rs=w:1280,h:720"
+                        style="width: 50%;"></div></a><br>
+            <div><a href="https://img1.wsimg.com/isteam/stock/Wb12gzD/:/rs=w:984,h:657" target="_blank"
+                    class="imagegallery"><img src="https://img1.wsimg.com/isteam/stock/Wb12gzD/:/rs=w:984,h:657"
+                        style="width: 50%;"></div>
+            </a><br><br><br>
+        </center>
 </body>
 
 </html>
